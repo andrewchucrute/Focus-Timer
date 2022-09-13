@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #e6e6e6;
+    min-height: 100vh;
+    display: grid;
+    font-size: 1.6rem;
+}
+
+main {
+    align-self: center;
+    display: grid;
+    justify-content: center;
+}
+
+
+
+/************ Cards ************/
+.rain, .florest, .fireplace, .coffe {
+    border: none;
+    border-radius: 24px;
+    width: 11rem;
+    height: 12rem;
+    background: var(--cs-secondary);
+    box-shadow:  inset 0 0 5px  #555;
+    
+}
+
+.rain svg path {
+    fill: #29292E;
+}
+
+.controls button svg  {
+    display:inline;
+    position: relative;
+    bottom: 20px;
+}
+.controls {
+    display: grid;
+    grid-template-columns: 14rem auto;
+    grid-template-rows: 15rem;
+    
+}
+
+.card, .card2, .card3, .card4 {
+    width: 137.5px;
+    height: 150px;
+    position: relative;
+  
+}
+
+
+
+
+/************ Buttons ************/
+
+#lul2 {
+    bottom: 10px;
+    position: relative;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.more, .fewer, .play, .stop, svg{
+    width: 4.2rem;
+    height: 4.2rem;
+    background-color: transparent;
+    
+    
+}
+
+span {
+    font-size: 11rem;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.more, .fewer, .play, .stop {
+margin: 0 1.4rem;
+}
+
+.pause {
+    margin: 0 1.4rem;
+    background-color: transparent;
+}
+
+.btndark, .btnclaro {
+    background-color: transparent;
+    position: absolute;
+    left: 80.88%;
+    right: 4.69%;
+    top: 8.33%;
+    bottom: 80.56%;
+    transition: all 0.25s ease-in-out;
+    width: 5rem;
+    height: 4rem;
+
+}
+
+.space {
+    display: flex;
+    gap: 14rem;
+    width: 82.1rem;
+    height: 33.6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************ INPUT RANGE ************/
+
+#slider3, #slider1, #slider2, #slider4 {
+    left: 20px;
+    position: absolute;
+    bottom: 43px;
+}
+
+  input[type='range'] {
+    position: relative;
+    bottom: 32px;
+    width: 100px;
+ 
+   }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 3.9px;
+    background: #323238;
+    border: none;
+}
+
+input[type='range'] {
+    -webkit-appearance: none;
+    border: none;
+
+    width: 100px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #323238;
+    margin-top: -6px;
+    
+}
+
+
+
+
+
+
+/************** click cards ****************/
+
+.blue {
+    background-color: #02799D;
+}
+
+.blue svg path {
+    fill: #ffffff;
+}
+
+
+.white  input[type='range']::-webkit-slider-runnable-track {
+    background: #ffffff;
+    
+}
+
+.white input[type='range']::-webkit-slider-thumb {
+    background: #ffffff;
+} 
+
+
+
+
+
+
+
+/************** DARK/LIGHT **************/
+
+
+
+#controls .florest.blue, 
+#controls .fireplace.blue,
+#controls .rain.blue,
+#controls .coffe.blue {
+    background-color: #02799D;
+}
+
+
+.buttonsdark svg path {
+    fill: #ffffff;
+    
+    }
+    .dark-span {
+        color: #ffffff;
+}
+
+.dark  {
+background-color: #121214;
+}
+
+.card-dark {
+    background-color: #29292E;
+}
+
+.card-dark svg path {
+    fill: #ffffff;
+}
+
+.card-dark2 input[type='range']::-webkit-slider-runnable-track {
+    background: #ffffff;
+
+}
+
+.card-dark2 input[type='range']::-webkit-slider-thumb {
+    background: #ffffff;
+    } 
+
+
+
+/* MEDIA */
+
+@media (max-width: 768px) {
+
+    #aaa {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        gap: 5rem;
+        
+    }
+    
+    .btndark {
+        left: 70%;
+        top: 17%;
+        position: fixed;
+    }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
