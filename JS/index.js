@@ -185,7 +185,7 @@ import {
   btnlight
   
 
-} from './elements.JS'
+} from './elements.js'
 import sounds from "./sounds.js"
 
 
