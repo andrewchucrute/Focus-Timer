@@ -3,9 +3,9 @@ export default function() {
     const kitchenTimer = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true")
 
     const forestAudio = new Audio('/audio/Floresta.wav')
-    const rainAudio = new Audio("/audio/CHuva.wav")
+    const rainAudio = new Audio("/audio/Chuva.wav")
     const fireAudio = new Audio("/audio/Lareira.wav")
-    const coffeeAudio = new Audio("/audio/cafeteria.wav")
+    const coffeeAudio = new Audio("/audio/Cafeteria.wav")
     buttonPressAudio.volume = 0.2
     kitchenTimer.volume = 0.35
 
