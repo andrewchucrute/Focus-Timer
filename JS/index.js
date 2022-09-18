@@ -183,10 +183,9 @@ import {
   buttondark,
   twopoints,
   btnlight
-  
+} from './elements.js'
 
-} from './elements.JS'
-import sounds from "./sounds.js"
+
 
 
 ///// Função do audio //////
