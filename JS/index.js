@@ -192,6 +192,7 @@ import sounds from "./sounds.js"
 ///// Função do audio //////
 function toggleAudioPlay(myAudio) {
   let isPaused = myAudio.paused
+
      if (isPaused) {
       myAudio.play();
     } else {

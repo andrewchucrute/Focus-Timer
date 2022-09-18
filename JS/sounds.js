@@ -10,6 +10,8 @@ export default function() {
     kitchenTimer.volume = 0.35
 
 
+
+
     function pressButton() {
         buttonPressAudio.play()
     }
