@@ -9,4 +9,4 @@ Colocar som como preferir dos cards, com ajuste de volume.
 - JAVASCRIPT
 - Git e GitHub
 
-https://ezgif.com/video-to-gif/ezgif-1-85cc265037.mp4
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/103382295/190902986-5eb8ed2c-e22b-4d5e-b401-f5538246cab5.gif)
