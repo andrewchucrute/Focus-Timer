@@ -139,9 +139,9 @@ margin: 0 1.4rem;
 /************ INPUT RANGE ************/
 
 #slider3, #slider1, #slider2, #slider4 {
-    left: 25px;
+    left: 7px;
     position: absolute;
-    bottom: 43px;
+    bottom: 55px;
 }
 
   input[type='range'] {
