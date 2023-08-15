@@ -19,3 +19,6 @@ Colocar som como preferir dos cards, com ajuste de volume.
 ## Mobile 
 
 ![andrewchucrute github io_Focus-Timer_](https://user-images.githubusercontent.com/103382295/190903284-31c72621-f863-4ca2-b2f7-2db949b966f5.png)
+
+# New Focus Timer
+https://github.com/andrewchucrute/NewFocusTimer
